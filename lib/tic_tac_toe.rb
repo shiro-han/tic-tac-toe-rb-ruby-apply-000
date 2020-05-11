@@ -43,9 +43,10 @@ def turn(board)
 
   user_input = gets.chomp
   index = input_to_index(user_input)
+  current_player = current_player(board)
 
   if valid_move?(board, index) == true
-    move(board, index)
+    move(board, index, current_player)
     display_board(board)
   else
     turn(board)
@@ -65,9 +66,9 @@ end
 def current_player(board)
   count = turn_count(board)
   if count%2 == 0
-    return "O"
-  else
     return "X"
+  else
+    return "O"
   end
 end
 
