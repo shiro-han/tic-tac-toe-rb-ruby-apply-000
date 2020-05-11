@@ -1,0 +1,27 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/home/helpful-jest-9571/tic-tac-toe-rb-ruby-apply-000/lib/tic_tac_toe.rb": [
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        5,
+        5,
+        5,
+        5,
+        5,
+        null
+      ]
+    },
+    "timestamp": 1589233979
+  }
+}
