@@ -123,3 +123,16 @@ def winner(board)
     return board[win_index]
   end
 end
+
+def play(board)
+  while over?(board) == false
+    turn(board)
+  end
+
+  if won?(board) != false
+    puts "Congratulations #{winner(board)}, you won!"
+  elsif draw?(board) == true
+    puts "The game has ended in a draw."
+  end
+    
+    
