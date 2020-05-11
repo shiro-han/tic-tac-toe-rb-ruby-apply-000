@@ -134,5 +134,3 @@ def play(board)
   elsif draw?(board) == true
     puts "The game has ended in a draw."
   end
-    
-    
